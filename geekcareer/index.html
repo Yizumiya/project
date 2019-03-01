@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="geekcareer">
+		<meta name="keyword" content="geekcareer">
+		<title>geekcareer</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script type="text/javascript" src="../js/g-analytics.js"></script>
+		<script>
+			$(function($) {
+				WindowHeight = $(window).height();
+				$('.drawr').css('height', WindowHeight); //メニューをwindowの高さいっぱいにする
+				$(document).ready(function() {
+					$('.btn').click(function(){ //クリックしたら
+						if($('.drawr').is(":animated")){
+							return false;
+						}else{
+							$('.drawr').animate({width:'toggle'}); //animateで表示・非表示
+							$(this).toggleClass('peke'); //toggleでクラス追加・削除
+							return false;
+						}
+					});
+				});
+   
+				//別領域をクリックでメニューを閉じる
+				$(document).click(function(event) {
+					if (!$(event.target).closest('.drawr').length) {
+						$('.btn').removeClass('peke');
+						$('.drawr').hide();
+					}
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div id = "wrapper">
+			<div id="header">
+				<div class="df">
+					<a href="#header"><img class="logo" src="img/first_logo.png" /></a>
+					<div class="gnf">
+						<div id="ham">
+							<a class="btn"><img src="img/btn.png" /></a>
+							<div class="drawr">
+								<ul id="menu">
+									<li><a href="#">サービス</a></li>
+									<li><a href="#tc">特徴</a></li>
+									<li><a href="#fl">流れ</a></li>
+									<li><a href="#qa">Q＆A</a></li>
+									<li><a href="#">お問い合わせ</a></li>
+								</ul>
+							</div>
+						</div>
+						<ul id = "globalnav">
+							<li><a href="#">サービス</a></li>
+							<li><a href="#tc">特徴</a></li>
+							<li><a href="#fl">流れ</a></li>
+							<li><a href="#qa">Q＆A</a></li>
+							<li><a href="#">お問い合わせ</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="mv">
+				<img class="db" src="img/first_buck_img.png" />
+				<img class="top_dis" src="img/first_title.png" />
+				<img class="top_but" src="img/first_cv_button.png" />
+			</div>
+			<div class="onayami">
+				<img class="db dn_s" src="img/onayami_buck_img.png" />
+				<img class="dn db_s" src="img/onayami_buck_img_sp.jpg" />
+				<img class="onayami_title" src="img/onayami_title.png" />
+				<img class="onayami_dis" src="img/onayami_discription.png" />
+				<img class="onayami_anai" src="img/onayami_anai.png" />
+			</div>
+			<div class="benefit">
+				<img class="db dn_s" src="img/benefit_buck_img.png" />
+				<img class="dn db_s" src="img/benefit_buck_img_sp.jpg" />
+				<img class="benefit_dis" src="img/benefit_discription.png" />
+				<img class="benefit_men" src="img/benefit_mendan.png" />
+				<img class="benefit_adv" src="img/benefit_advice.png" />
+			</div>
+			<div class="profile">
+				<img class="db dn_s" src="img/profile_buck_img.png" />
+				<img class="dn db_s" src="img/profiel_buck_img_sp.jpg" />
+				<img class="dn_s profile_title" src="img/profiel_title.png" />
+				<img class="dn db_s profile_title" src="img/profiel_title_sp.png" />
+				<img class="profile_name" src="img/profiel_name.png" />
+				<img class="dn_s profile_keireki" src="img/profiel_keireki.png" />
+				<img class="dn db_s profile_keireki" src="img/profiel_keireki_sp.png" />
+			</div>
+			<div id="contents">
+				<div id="tc"><div class="tokucho_title">
+					<img src="img/tokucho_title.png" />
+				</div></div>
+				<img class="dn_s mt7" src="img/tokucho_1.png" />
+				<img class="dn db_s mt12" src="img/tokucho_1_img.png" />
+				<p class="dn di_s mt7 tc1_title_s">現役エンジニアに相談できる</p>
+				<p class="dn db_s tc1_dis_s">IT・Web業界に特化した豊富な知識とノウハウをもつ、専任のアドバイザーがキャリア相談にのり、具体的且つ最適なアドバイスをいたします。</p>
+				<img class="dn_s mt7" src="img/tokucho_2.png" />
+				<img class="dn db_s mt12" src="img/tokucho_3_img.png" />
+				<p class="dn di_s tc2_title_s">システム開発事業10年以上のエンジニア専門の転職エージェント</p>
+				<p class="dn db_s tc2_dis_s">弊社は受託システム開発事業をはじめ、プログラマ育成事業を行う、テクノロジーに強い企業です。業界と精通し、知識やノウハウが豊富だからこそ、最適なご紹介を実現します。</p>
+				<img class="dn_s mt7" src="img/tokucho_3.png" />
+				<img class="dn db_s mt14" src="img/tokucho_2_img.png" />
+				<p class="dn di_s mt7 tc3_title_s">転職サポートが充実</p>
+				<p class="dn db_s tc3_dis_s">転職面談に加え、現役人事の面接アドバイスや、履歴書添削もお任せください。履歴書には載っていない、あなたの魅力を引き出し、よりあなたにあった企業のご紹介に役立てます。</p>
+				<img class="dn_s mt7" src="img/tokucho_4.png" />
+				<img class="dn db_s mt14" src="img/tokucho_4_img.png" />
+				<p class="dn di_s mt7 tc4_title_s">女性スタッフによる丁寧なサポート</p>
+				<p class="dn db_s tc4_dis_s">面接練習や面接同行など、女性の担当が行います。<br>女性ならではのキメの細かいサポートが受けられます。</p>
+				<img class="mt14" src="img/line.png" />
+				<div id="fl"><div class="flow_title">
+					<img src="img/flow_title.png" />
+				</div></div>
+				<div class="flow1">
+					<img class="dn_s mr5" src="img/flow_mousikomi.png" />
+					<img class="dn db_s" src="img/flow_mousikomi.png" />
+					<img class="dn_s mr5" src="img/flow_mendan.png" />
+					<img class="dn db_s mt12" src="img/flow_mendan.png" />
+					<img class="dn_s" src="img/flow_syoukai.png" />
+					<img class="dn db_s mt12" src="img/flow_syoukai.png" />
+				</div>
+				<div class="flow2">
+					<img class="dn_s mr5" src="img/flow_mensetsutaisaku.png" />
+					<img class="dn db_s mt12" src="img/flow_mensetsutaisaku.png" />
+					<img class="dn_s mr5" src="img/flow_mensetsu_doukou.png" />
+					<img class="dn db_s mt12" src="img/flow_mensetsu_doukou.png" />
+					<img class="dn_s" src="img/flow_naitei.png" />
+					<img class="dn db_s mt12" src="img/flow_naitei.png" />
+				</div>
+				<img class="mt14" src="img/line.png" />
+				<div id="qa"><div class="qa_title">
+					<img src="img/q&a_title.png" />
+				</div></div>
+				<img class="dn_s mt12" src="img/q&a_q1.png" />
+				<p class="dn db_s q1">本当に無料なんですか？</p>
+				<p class="dn db_s a1">GeekCareerは募集企業様から紹介料をいただいています。そのため、ご利用頂く転職者様から料金は一切頂いておりません。サービス</p>
+				<img class="mt7" src="img/line.png" />
+				<img class="dn_s mt7" src="img/q&a_q2.png" />
+				<p class="dn db_s q2">サービスを利用し始めたら、絶対転職しないといけませんか？</p>
+				<p class="dn db_s a2">転職は納得したうえでされるのが一番だと考えていますので、無理強いはいたしません。そのため面談の末、キャリアアドバイザーから「現時点では転職を勧めません」と、アドバイスさせていただく場合もございますので、じっくりご検討して決めることができます。</p>
+				<img class="mt7" src="img/line.png" />
+				<img class="dn_s mt7" src="img/q&a_q3.png" />
+				<p class="dn db_s q3">平日は仕事で忙しく面談の時間がとれないのですが。</p>
+				<p class="dn db_s a3">土日や平日の夜など、お客さまのご都合がつく時に面談を調節させていただいております。ご希望の日程をご相談ください。</p>
+				<img class="mt7" src="img/line.png" />
+				<img class="dn_s mt7" src="img/q&a_q4.png" />
+				<p class="dn db_s q4">他社のエージェントとどこが違うでしょうか？</p>
+				<p class="dn db_s a4">GeekCareeのキャリア相談は現役のエンジニアで、業界経験も豊富なため、より適切なキャリアプランと、お客様に寄り添った親身なアドバイスができます。</p>
+				<img class="mt7" src="img/line.png" />
+				<img class="dn_s mt7" src="img/q&a_q5.png" />
+				<p class="dn db_s q5">紹介された企業でも、お断りすることはできるのでしょうか？</p>
+				<p class="dn db_s a5">あらかじめヒアリングしたうえ、マッチした企業のご紹介を行いますが、面接してみてお断りしたい場合は、辞退いただいてまったく問題ございません。</p>
+				<img class="mt7" src="img/line.png" />
+
+			</div>
+
+		</div>
+	</body>
+</html>

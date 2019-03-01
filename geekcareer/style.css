@@ -1,0 +1,577 @@
+body{
+	margin: 0px;
+	font-family: sans-serif,"HG明朝E",Georgia, "游明朝体", "YuMincho", "游明朝", "Yu Mincho", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN W3", HiraMinProN-W3, "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "HGS明朝E", "ＭＳ Ｐ明朝", "MS PMincho",serif;
+}
+div#wrapper{
+	width: 100%;
+}
+img{
+	width: 100%;
+}
+.logo{
+	width:80%;
+	margin-top: 0%;
+	margin-left: 0%;
+}
+div#ham{
+	display: none;
+}
+.df{
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	background: rgba(255,255,255,0.8);
+}
+.gnf{
+	width: 100%;
+}
+ul#globalnav{
+	width: 100%;
+	padding: 0px;
+	font-size: 20px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	margin-top: 3.5%;
+	margin-left: 6%;
+}
+ul#globalnav li{
+	list-style: none;
+	margin-left: 10%;
+}
+ul#globalnav li a{
+	text-decoration: none;
+	color: #000000;
+}
+.db{
+	display: block;
+}
+.dn{
+	display: none;
+}
+.mv{
+	position: relative;
+}
+.top_dis{
+	width: 50%;
+	position: absolute;
+	top: 27%;
+	left: 5%;
+}
+.top_but{
+	width: 42%;
+	position: absolute;
+	top: 62%;
+	left: 9%;
+}
+.onayami{
+	position: relative;
+}
+.onayami_title{
+	width: 50%;
+	position: absolute;
+	top: 13%;
+	left: 6%;
+}
+.onayami_dis{
+	width: 50%;
+	position: absolute;
+	top: 37%;
+	left: 7%;
+}
+.onayami_anai{
+	width: 42%;
+	position: absolute;
+	top: 75%;
+	left: 6%;
+}
+.benefit{
+	position: relative;
+}
+.benefit_dis{
+	width: 55%;
+	position: absolute;
+	top: 22%;
+	left: 40%;
+}
+.benefit_men{
+	width: 26%;
+	position: absolute;
+	top: 55%;
+	left: 40%;
+}
+.benefit_adv{
+	width: 26%;
+	position: absolute;
+	top: 55%;
+	left: 70%;
+}
+.profile{
+	position: relative;
+}
+.profile_title{
+	width: 80%;
+	position: absolute;
+	top: 5%;
+	left: 10%;
+}
+.profile_name{
+	width: 30%;
+	position: absolute;
+	top: 25%;
+	left: 47%;
+}
+.profile_keireki{
+	width: 40%;
+	position: absolute;
+	top: 40%;
+	left: 47%;
+}
+div#contents{
+	width: 70%;
+	margin: 0 auto;
+}
+.tokucho_title{
+	width: 70%;
+	margin: 10% auto 0%;
+}
+.mt7{
+	margin-top: 7%;
+}
+.mt12{
+	margin-top: 12%;
+}
+.mt14{
+	margin-top: 14%;
+}
+.flow_title{
+	width: 70%;
+	margin: 10% auto 0%;
+}
+.flow1{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	margin-top: 10%;
+}
+.flow1 img{
+	width: 30%;
+	height: 50%;
+}
+.flow2{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	margin-top: 7%;
+}
+.flow2 img{
+	width: 30%;
+	height: 50%;
+}
+.mr5{
+	margin-right: 5%;
+}
+.qa_title{
+	width: 70%;
+	margin: 10% auto 0%;
+}
+
+@media only screen and (max-width: 1250px){
+
+ul#globalnav{
+	font-size: 16px;
+}
+}
+
+@media only screen and (max-width: 1024px){
+
+ul#globalnav{
+	display: none;
+}
+div#ham{
+	display: block;
+}
+.btn{
+	display: block;
+	width:13%;
+	height: 13%;
+	position: fixed;
+	top:0;
+	right:0;
+	cursor: pointer;
+	z-index: 200;
+}
+.peke{
+	background-position: -35px 0;
+}
+.drawr{
+	display: none;
+	background-color:#FFFFFF;
+	position: fixed;
+	top: 0px;
+	right:0;
+	width:260px;
+	height: 100%;
+	padding: 50px 0 20px 0px;
+	z-index: 100;
+}
+#menu li{
+	list-style: none;
+	width:260px;
+}
+#menu li a{
+	color:#000000;
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+}
+}
+
+@media only screen and (max-width: 768px){
+
+.dn_s{
+	display: none;
+}
+.db_s{
+	display: block;
+}
+.di_s{
+	display: inline-block;
+}
+.onayami_title{
+	width: 90%;
+	top: 14%;
+	left: 7%;
+}
+.onayami_dis{
+	width: 93%;
+	top: 37%;
+	left: 7%;
+}
+.onayami_anai{
+	width: 100%;
+	top: 73%;
+	left: 0%;
+}
+.benefit_dis{
+	width: 90%;
+	top: 7%;
+	left: 7%;
+}
+.benefit_men{
+	width: 70%;
+	top: 30%;
+	left: 15%;
+}
+.benefit_adv{
+	width: 70%;
+	top: 64%;
+	left: 15%;
+}
+.profile_title{
+	width: 54%;
+	top: 12%;
+	left: 45%;
+}
+.profile_name{
+	width: 50%;
+	top: 25%;
+	left: 45%;
+}
+.profile_keireki{
+	width: 50%;
+	top: 40%;
+	left: 45%;
+}
+div#contents{
+	width: 80%;
+}
+.tokucho_title{
+	width: 100%;
+}
+.tc1_title_s{
+	background-image: url("img/tokucho_1_icon.png");
+	background-repeat: no-repeat;
+	background-position: left middle;
+	background-size: 70px;
+	padding-left: 20%;
+	padding-top: 3%;
+	padding-bottom: 5%;
+	color: #616161;
+	font-size: 22px;
+}
+.tc1_dis_s{
+	width: 85%;
+	margin: 0 auto;
+	font-size: 20px;
+}
+.tc2_title_s{
+	background-image: url("img/tokucho_2_icon.png");
+	background-repeat: no-repeat;
+	background-position: left middle;
+	background-size: 70px;
+	padding-left: 20%;
+	padding-top: 3%;
+	padding-bottom: 5%;
+	color: #616161;
+	font-size: 22px;
+}
+.tc2_dis_s{
+	width: 85%;
+	margin: 0 auto;
+	font-size: 20px;
+}
+.tc3_title_s{
+	background-image: url("img/tokucho_3_icon.png");
+	background-repeat: no-repeat;
+	background-position: left middle;
+	background-size: 70px;
+	padding-left: 20%;
+	padding-top: 3%;
+	padding-bottom: 5%;
+	color: #616161;
+	font-size: 22px;
+}
+.tc3_dis_s{
+	width: 85%;
+	margin: 0 auto;
+	font-size: 20px;
+}
+.tc4_title_s{
+	background-image: url("img/tokucho_4_icon.png");
+	background-repeat: no-repeat;
+	background-position: left middle;
+	background-size: 70px;
+	padding-left: 20%;
+	padding-top: 3%;
+	padding-bottom: 5%;
+	color: #616161;
+	font-size: 22px;
+}
+.tc4_dis_s{
+	width: 85%;
+	margin: 0 auto;
+	font-size: 20px;
+}
+.flow_title{
+	width: 100%;
+}
+.flow1{
+	display: block;
+}
+.flow1 img{
+	width: 100%;
+	height: 100%;
+}
+.flow2{
+	display: block;
+	margin-top: 0%;
+}
+.flow2 img{
+	width: 100%;
+	height: 100%;
+}
+.qa_title{
+	width: 100%;
+}
+.q1{
+	background-image: url("img/q.png");
+	background-repeat: no-repeat;
+	background-position: left middle;
+	background-size: 50px;
+	padding-left: 15%;
+	padding-top: 2%;
+	padding-bottom: 5%;
+	color: #616161;
+	font-size: 22px;
+	margin-top: 10%;
+	margin-bottom: 1%;
+}
+.a1{
+	background-image: url("img/a.png");
+	background-repeat: no-repeat;
+	background-position: left middle;
+	background-size: 50px;
+	padding-left: 15%;
+	padding-top: 2%;
+	padding-bottom: 5%;
+	width: 85%;
+	margin: 0 auto;
+	font-size: 18px;
+}
+.q2{
+	background-image: url("img/q.png");
+	background-repeat: no-repeat;
+	background-position: left middle;
+	background-size: 50px;
+	padding-left: 15%;
+	padding-top: 2%;
+	padding-bottom: 5%;
+	color: #616161;
+	font-size: 22px;
+	margin-top: 10%;
+	margin-bottom: 1%;
+}
+.a2{
+	background-image: url("img/a.png");
+	background-repeat: no-repeat;
+	background-position: left middle;
+	background-size: 50px;
+	padding-left: 15%;
+	padding-top: 2%;
+	padding-bottom: 5%;
+	width: 85%;
+	margin: 0 auto;
+	font-size: 18px;
+}
+.q3{
+	background-image: url("img/q.png");
+	background-repeat: no-repeat;
+	background-position: left middle;
+	background-size: 50px;
+	padding-left: 15%;
+	padding-top: 2%;
+	padding-bottom: 5%;
+	color: #616161;
+	font-size: 22px;
+	margin-top: 10%;
+	margin-bottom: 1%;
+}
+.a3{
+	background-image: url("img/a.png");
+	background-repeat: no-repeat;
+	background-position: left middle;
+	background-size: 50px;
+	padding-left: 15%;
+	padding-top: 2%;
+	padding-bottom: 5%;
+	width: 85%;
+	margin: 0 auto;
+	font-size: 18px;
+}
+.q4{
+	background-image: url("img/q.png");
+	background-repeat: no-repeat;
+	background-position: left middle;
+	background-size: 50px;
+	padding-left: 15%;
+	padding-top: 2%;
+	padding-bottom: 5%;
+	color: #616161;
+	font-size: 22px;
+	margin-top: 10%;
+	margin-bottom: 1%;
+}
+.a4{
+	background-image: url("img/a.png");
+	background-repeat: no-repeat;
+	background-position: left middle;
+	background-size: 50px;
+	padding-left: 15%;
+	padding-top: 2%;
+	padding-bottom: 5%;
+	width: 85%;
+	margin: 0 auto;
+	font-size: 18px;
+}
+.q5{
+	background-image: url("img/q.png");
+	background-repeat: no-repeat;
+	background-position: left middle;
+	background-size: 50px;
+	padding-left: 15%;
+	padding-top: 2%;
+	padding-bottom: 5%;
+	color: #616161;
+	font-size: 22px;
+	margin-top: 10%;
+	margin-bottom: 1%;
+}
+.a5{
+	background-image: url("img/a.png");
+	background-repeat: no-repeat;
+	background-position: left middle;
+	background-size: 50px;
+	padding-left: 15%;
+	padding-top: 2%;
+	padding-bottom: 5%;
+	width: 85%;
+	margin: 0 auto;
+	font-size: 18px;
+}
+}
+
+@media only screen and (max-width: 560px){
+
+.tc1_title_s{
+	background-size: 50px;
+	font-size: 20px;
+}
+.tc1_dis_s{
+	font-size: 18px;
+}
+.tc2_title_s{
+	background-size: 50px;
+	font-size: 20px;
+}
+.tc2_dis_s{
+	font-size: 18px;
+}
+.tc3_title_s{
+	background-size: 50px;
+	font-size: 20px;
+}
+.tc3_dis_s{
+	font-size: 18px;
+}
+.tc4_title_s{
+	background-size: 50px;
+	font-size: 20px;
+}
+.tc4_dis_s{
+	font-size: 18px;
+}
+.q1{
+	font-size: 18px;
+	padding-left: 25%;
+}
+.a1{
+	font-size: 16px;
+	padding-left: 25%;
+}
+.q2{
+	font-size: 18px;
+	padding-left: 25%;
+}
+.a2{
+	font-size: 16px;
+	padding-left: 25%;
+}
+.q3{
+	font-size: 18px;
+	padding-left: 25%;
+}
+.a3{
+	font-size: 16px;
+	padding-left: 25%;
+}
+.q4{
+	font-size: 18px;
+	padding-left: 25%;
+}
+.a4{
+	font-size: 16px;
+	padding-left: 25%;
+}
+.q5{
+	font-size: 18px;
+	padding-left: 25%;
+}
+.a5{
+	font-size: 16px;
+	padding-left: 25%;
+}
+}
