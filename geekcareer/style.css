@@ -155,9 +155,9 @@ div#contents{
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: flex;
-	margin-top: 10%;
+	margin-top: 12%;
 }
-.flow1 img{
+.w30h50{
 	width: 30%;
 	height: 50%;
 }
@@ -166,10 +166,6 @@ div#contents{
 	display: -webkit-flex;
 	display: flex;
 	margin-top: 7%;
-}
-.flow2 img{
-	width: 30%;
-	height: 50%;
 }
 .mr5{
 	margin-right: 5%;
@@ -362,7 +358,7 @@ div#contents{
 .flow1{
 	display: block;
 }
-.flow1 img{
+.wh100{
 	width: 100%;
 	height: 100%;
 }
@@ -370,9 +366,9 @@ div#contents{
 	display: block;
 	margin-top: 0%;
 }
-.flow2 img{
-	width: 100%;
-	height: 100%;
+.yajirushi{
+	width: 20%;
+	margin: 12% auto 0;
 }
 .qa_title{
 	width: 100%;
@@ -398,7 +394,6 @@ div#contents{
 	padding-left: 15%;
 	padding-top: 2%;
 	padding-bottom: 5%;
-	width: 85%;
 	margin: 0 auto;
 	font-size: 18px;
 }
@@ -423,7 +418,6 @@ div#contents{
 	padding-left: 15%;
 	padding-top: 2%;
 	padding-bottom: 5%;
-	width: 85%;
 	margin: 0 auto;
 	font-size: 18px;
 }
@@ -448,7 +442,6 @@ div#contents{
 	padding-left: 15%;
 	padding-top: 2%;
 	padding-bottom: 5%;
-	width: 85%;
 	margin: 0 auto;
 	font-size: 18px;
 }
@@ -473,7 +466,6 @@ div#contents{
 	padding-left: 15%;
 	padding-top: 2%;
 	padding-bottom: 5%;
-	width: 85%;
 	margin: 0 auto;
 	font-size: 18px;
 }
@@ -498,10 +490,10 @@ div#contents{
 	padding-left: 15%;
 	padding-top: 2%;
 	padding-bottom: 5%;
-	width: 85%;
 	margin: 0 auto;
 	font-size: 18px;
 }
+
 }
 
 @media only screen and (max-width: 560px){
