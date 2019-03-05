@@ -9,7 +9,8 @@ img{
 	width: 100%;
 }
 .logo{
-	width:80%;
+	display: block;
+	width:70%;
 	margin-top: 0%;
 	margin-left: 0%;
 }
@@ -35,7 +36,7 @@ ul#globalnav{
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: flex;
-	margin-top: 3.5%;
+	margin-top: 2.7%;
 	margin-left: 6%;
 }
 ul#globalnav li{
@@ -45,6 +46,7 @@ ul#globalnav li{
 ul#globalnav li a{
 	text-decoration: none;
 	color: #000000;
+	font-family: "游ゴシック";
 }
 .db{
 	display: block;
@@ -55,17 +57,35 @@ ul#globalnav li a{
 .mv{
 	position: relative;
 }
-.top_dis{
-	width: 50%;
+.top_tit{
+	width: 45%;
 	position: absolute;
-	top: 27%;
-	left: 5%;
+	top: 21%;
+	left: 10.5%;
+}
+.top_dis{
+	width: 55%;
+	position: absolute;
+	top: 49%;
+	left: 5.5%;
 }
 .top_but{
 	width: 42%;
 	position: absolute;
-	top: 62%;
-	left: 9%;
+	top: 66%;
+	left: 12%;
+}
+.top_man{
+	width: 15%;
+	position: absolute;
+	top: 64%;
+	left: 61%;
+}
+.top_men{
+	width: 16%;
+	position: absolute;
+	top: 64%;
+	left: 77%;
 }
 .onayami{
 	position: relative;
@@ -130,6 +150,38 @@ ul#globalnav li a{
 	top: 40%;
 	left: 47%;
 }
+.agent{
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.agent_img{
+	width: 37%;
+}
+.agent_dis{
+	width: 51%;
+	margin-top: 3.5%;
+	margin-bottom: 0%;
+	margin-left: 6%;
+	margin-right: 6%;
+}
+.kyuujin{
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.kyuujin_dis{
+	width: 51%;
+	margin-top: 10%;
+	margin-bottom: 0%;
+	margin-left: 6%;
+	margin-right: 6%;
+}
+.kyuujin_img{
+	width: 37%;
+}
 div#contents{
 	width: 70%;
 	margin: 0 auto;
@@ -140,6 +192,9 @@ div#contents{
 }
 .mt7{
 	margin-top: 7%;
+}
+.mt10{
+	margin-top: 10%;
 }
 .mt12{
 	margin-top: 12%;
@@ -157,9 +212,8 @@ div#contents{
 	display: flex;
 	margin-top: 12%;
 }
-.w30h50{
+.w30{
 	width: 30%;
-	height: 50%;
 }
 .flow2{
 	display: -webkit-box;
@@ -167,18 +221,54 @@ div#contents{
 	display: flex;
 	margin-top: 7%;
 }
+.voice_title{
+	width: 100%;
+	margin: 10% auto 0%;
+}
 .mr5{
 	margin-right: 5%;
+}
+.kaneko{
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	margin-top: 3%;
+}
+.kaneko_img{
+	width: 35%;
+}
+.kaneko_body{
+	width: 60%;
+	margin-left: 5%;
+}
+.on{
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	margin-top: 3%;
+}
+.on_img{
+	width: 35%;
+}
+.on_body{
+	width: 60%;
+	margin-left: 5%;
 }
 .qa_title{
 	width: 70%;
 	margin: 10% auto 0%;
+}
+.qa1{
+	width: 90%;
 }
 
 @media only screen and (max-width: 1250px){
 
 ul#globalnav{
 	font-size: 16px;
+	margin-top: 4%;
 }
 }
 
@@ -223,6 +313,7 @@ div#ham{
 	display: block;
 	padding: 10px;
 	text-decoration: none;
+	font-family: "游ゴシック";
 }
 }
 
@@ -236,6 +327,30 @@ div#ham{
 }
 .di_s{
 	display: inline-block;
+}
+.top_tit{
+	width: 80%;
+	top: 21%;
+	left: 10.5%;
+}
+.top_dis{
+	width: 80%;
+	top: 50%;
+	left: 10%;
+}
+.top_but_s{
+	width: 80%;
+	margin: 0 auto;
+}
+.top_man{
+	width: 20%;
+	top: 66%;
+	left: 30%;
+}
+.top_men{
+	width: 21%;
+	top: 66%;
+	left: 50%;
 }
 .onayami_title{
 	width: 90%;
@@ -282,8 +397,18 @@ div#ham{
 	top: 40%;
 	left: 45%;
 }
+.agent_dis{
+	width: 100%;
+}
+.kyuujin_dis{
+	width: 100%;
+}
 div#contents{
 	width: 80%;
+}
+.w80{
+	width: 80%;
+	margin: 0 auto;
 }
 .tokucho_title{
 	width: 100%;
@@ -298,11 +423,14 @@ div#contents{
 	padding-bottom: 5%;
 	color: #616161;
 	font-size: 22px;
+	font-family: "游ゴシック";
+	font-weight: bold;
 }
 .tc1_dis_s{
 	width: 85%;
 	margin: 0 auto;
 	font-size: 20px;
+	font-family: "MS Pゴシック";
 }
 .tc2_title_s{
 	background-image: url("img/tokucho_2_icon.png");
@@ -314,27 +442,33 @@ div#contents{
 	padding-bottom: 5%;
 	color: #616161;
 	font-size: 22px;
+	font-family: "游ゴシック";
+	font-weight: bold;
 }
 .tc2_dis_s{
 	width: 85%;
 	margin: 0 auto;
 	font-size: 20px;
+	font-family: "MS Pゴシック";
 }
 .tc3_title_s{
 	background-image: url("img/tokucho_3_icon.png");
 	background-repeat: no-repeat;
-	background-position: left middle;
+	background-position: 18% 0%;
 	background-size: 70px;
-	padding-left: 20%;
+	padding-left: 38%;
 	padding-top: 3%;
 	padding-bottom: 5%;
 	color: #616161;
 	font-size: 22px;
+	font-family: "游ゴシック";
+	font-weight: bold;
 }
 .tc3_dis_s{
 	width: 85%;
 	margin: 0 auto;
 	font-size: 20px;
+	font-family: "MS Pゴシック";
 }
 .tc4_title_s{
 	background-image: url("img/tokucho_4_icon.png");
@@ -346,11 +480,14 @@ div#contents{
 	padding-bottom: 5%;
 	color: #616161;
 	font-size: 22px;
+	font-family: "游ゴシック";
+	font-weight: bold;
 }
 .tc4_dis_s{
 	width: 85%;
 	margin: 0 auto;
 	font-size: 20px;
+	font-family: "MS Pゴシック";
 }
 .flow_title{
 	width: 100%;
@@ -381,10 +518,10 @@ div#contents{
 	padding-left: 15%;
 	padding-top: 2%;
 	padding-bottom: 5%;
-	color: #616161;
 	font-size: 22px;
 	margin-top: 10%;
 	margin-bottom: 1%;
+	font-family: "游ゴシック";
 }
 .a1{
 	background-image: url("img/a.png");
@@ -396,6 +533,7 @@ div#contents{
 	padding-bottom: 5%;
 	margin: 0 auto;
 	font-size: 18px;
+	font-family: "游ゴシック";
 }
 .q2{
 	background-image: url("img/q.png");
@@ -405,10 +543,10 @@ div#contents{
 	padding-left: 15%;
 	padding-top: 2%;
 	padding-bottom: 5%;
-	color: #616161;
 	font-size: 22px;
 	margin-top: 10%;
 	margin-bottom: 1%;
+	font-family: "游ゴシック";
 }
 .a2{
 	background-image: url("img/a.png");
@@ -420,6 +558,7 @@ div#contents{
 	padding-bottom: 5%;
 	margin: 0 auto;
 	font-size: 18px;
+	font-family: "游ゴシック";
 }
 .q3{
 	background-image: url("img/q.png");
@@ -429,10 +568,10 @@ div#contents{
 	padding-left: 15%;
 	padding-top: 2%;
 	padding-bottom: 5%;
-	color: #616161;
 	font-size: 22px;
 	margin-top: 10%;
 	margin-bottom: 1%;
+	font-family: "游ゴシック";
 }
 .a3{
 	background-image: url("img/a.png");
@@ -444,6 +583,7 @@ div#contents{
 	padding-bottom: 5%;
 	margin: 0 auto;
 	font-size: 18px;
+	font-family: "游ゴシック";
 }
 .q4{
 	background-image: url("img/q.png");
@@ -453,10 +593,10 @@ div#contents{
 	padding-left: 15%;
 	padding-top: 2%;
 	padding-bottom: 5%;
-	color: #616161;
 	font-size: 22px;
 	margin-top: 10%;
 	margin-bottom: 1%;
+	font-family: "游ゴシック";
 }
 .a4{
 	background-image: url("img/a.png");
@@ -468,6 +608,7 @@ div#contents{
 	padding-bottom: 5%;
 	margin: 0 auto;
 	font-size: 18px;
+	font-family: "游ゴシック";
 }
 .q5{
 	background-image: url("img/q.png");
@@ -477,10 +618,10 @@ div#contents{
 	padding-left: 15%;
 	padding-top: 2%;
 	padding-bottom: 5%;
-	color: #616161;
 	font-size: 22px;
 	margin-top: 10%;
 	margin-bottom: 1%;
+	font-family: "游ゴシック";
 }
 .a5{
 	background-image: url("img/a.png");
@@ -492,6 +633,7 @@ div#contents{
 	padding-bottom: 5%;
 	margin: 0 auto;
 	font-size: 18px;
+	font-family: "游ゴシック";
 }
 
 }
@@ -515,6 +657,8 @@ div#contents{
 .tc3_title_s{
 	background-size: 50px;
 	font-size: 20px;
+	background-position: 10% 0%;
+	padding-left: 30%;
 }
 .tc3_dis_s{
 	font-size: 18px;
@@ -565,5 +709,13 @@ div#contents{
 .a5{
 	font-size: 16px;
 	padding-left: 25%;
+}
+}
+
+@media only screen and (max-width: 350px){
+
+.tc3_title_s{
+	background-position: left;
+	padding-left: 20%;
 }
 }
