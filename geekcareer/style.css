@@ -91,13 +91,13 @@ ul#globalnav li a{
 	position: relative;
 }
 .onayami_title{
-	width: 50%;
+	width: 43%;
 	position: absolute;
 	top: 13%;
 	left: 6%;
 }
 .onayami_dis{
-	width: 50%;
+	width: 45%;
 	position: absolute;
 	top: 37%;
 	left: 7%;
@@ -135,20 +135,20 @@ ul#globalnav li a{
 .profile_title{
 	width: 80%;
 	position: absolute;
-	top: 5%;
+	top: 11%;
 	left: 10%;
 }
 .profile_name{
-	width: 30%;
+	width: 25%;
 	position: absolute;
-	top: 25%;
-	left: 47%;
+	top: 30%;
+	left: 43%;
 }
 .profile_keireki{
 	width: 40%;
 	position: absolute;
-	top: 40%;
-	left: 47%;
+	top: 45%;
+	left: 43%;
 }
 .agent{
 	width: 100%;
@@ -160,11 +160,11 @@ ul#globalnav li a{
 	width: 37%;
 }
 .agent_dis{
-	width: 51%;
-	margin-top: 3.5%;
+	width: 46%;
+	margin-top: 5%;
 	margin-bottom: 0%;
-	margin-left: 6%;
-	margin-right: 6%;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 .kyuujin{
 	width: 100%;
@@ -173,11 +173,11 @@ ul#globalnav li a{
 	display: flex;
 }
 .kyuujin_dis{
-	width: 51%;
+	width: 46%;
 	margin-top: 10%;
 	margin-bottom: 0%;
-	margin-left: 6%;
-	margin-right: 6%;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 .kyuujin_img{
 	width: 37%;
@@ -222,7 +222,7 @@ div#contents{
 	margin-top: 7%;
 }
 .voice_title{
-	width: 100%;
+	width: 90%;
 	margin: 10% auto 0%;
 }
 .mr5{
@@ -257,11 +257,67 @@ div#contents{
 	margin-left: 5%;
 }
 .qa_title{
-	width: 70%;
+	width: 60%;
 	margin: 10% auto 0%;
 }
-.qa1{
-	width: 90%;
+.qaw80{
+	width: 80%;
+}
+div#footer{
+	background-color: #19bfc3;
+	font-family: "Meiryo UI";
+	color: #ffffff;
+	padding: 1% 3% 6% 3%;
+	margin-top: 12%;
+}
+ul#footter-gn1{
+	width: 70%;
+	padding: 0px;
+	margin-top: 3%;
+	margin-left: 1%;
+	margin-bottom: 0px;
+	font-size: 18px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	float: left;
+}
+ul#footter-gn1 li{
+	list-style: none;
+	margin-left: 10%;
+}
+ul#footter-gn1 li a{
+	text-decoration: none;
+	color: #ffffff;
+}
+ul#footter-gn2{
+	width: 70%;
+	padding: 0px;
+	margin-top: 1%;
+	margin-bottom: 0px;
+	margin-left: 1%;
+	font-size: 18px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	float: left;
+}
+ul#footter-gn2 li{
+	list-style: none;
+	margin-left: 10%;
+}
+ul#footter-gn2 li a{
+	text-decoration: none;
+	color: #ffffff;
+}
+.fl{
+	float: left;
+	margin-top: 0.5%;
+}
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
 }
 
 @media only screen and (max-width: 1250px){
@@ -270,6 +326,7 @@ ul#globalnav{
 	font-size: 16px;
 	margin-top: 4%;
 }
+
 }
 
 @media only screen and (max-width: 1024px){
@@ -315,8 +372,32 @@ div#ham{
 	text-decoration: none;
 	font-family: "游ゴシック";
 }
+
 }
 
+@media only screen and (max-width: 980px){
+
+ul#footter-gn1{
+	width: 96%;
+	margin-left: 4%;
+	margin-top: 3%;
+	font-size: 18px;
+}
+ul#footter-gn2{
+	width: 96%;
+	margin-left: 4%;
+	margin-top: 2%;
+	font-size: 18px;
+}
+ul#footter-gn1 li{
+	margin-left: 0px;
+	margin-right: 10%;
+}
+ul#footter-gn2 li{
+	margin-left: 0px;
+	margin-right: 10%;
+}	
+}
 @media only screen and (max-width: 768px){
 
 .dn_s{
@@ -330,12 +411,12 @@ div#ham{
 }
 .top_tit{
 	width: 80%;
-	top: 21%;
+	top: 47%;
 	left: 10.5%;
 }
 .top_dis{
 	width: 80%;
-	top: 50%;
+	top: 68%;
 	left: 10%;
 }
 .top_but_s{
@@ -343,14 +424,14 @@ div#ham{
 	margin: 0 auto;
 }
 .top_man{
-	width: 20%;
-	top: 66%;
-	left: 30%;
+	width: 25%;
+	top: 77%;
+	left: 23%;
 }
 .top_men{
-	width: 21%;
-	top: 66%;
-	left: 50%;
+	width: 26.5%;
+	top: 77.3%;
+	left: 52%;
 }
 .onayami_title{
 	width: 90%;
@@ -397,11 +478,39 @@ div#ham{
 	top: 40%;
 	left: 45%;
 }
+.agent_title{
+	position: relative;
+}
+.agent_hai{
+	width: 100%;
+	display: block;
+}
+.agent_bun{
+	width: 50%;
+	position: absolute;
+	top: 30%;
+	left: 25%;
+}
 .agent_dis{
 	width: 100%;
+	margin-bottom: 12%;
+}
+.kyuujin_title{
+	position: relative;
+}
+.kyuujin_hai{
+	width: 100%;
+	display: block;
+}
+.kyuujin_bun{
+	width: 70%;
+	position: absolute;
+	top: 30%;
+	left: 15%;
 }
 .kyuujin_dis{
 	width: 100%;
+	margin-top: 0%;
 }
 div#contents{
 	width: 80%;
@@ -507,6 +616,9 @@ div#contents{
 	width: 20%;
 	margin: 12% auto 0;
 }
+.voice_title{
+	width: 100%;
+}
 .qa_title{
 	width: 100%;
 }
@@ -637,7 +749,28 @@ div#contents{
 }
 
 }
+@media only screen and (max-width: 670px){
 
+ul#footter-gn1{
+	display: block;
+	width: 93%;
+	margin-left: 7%;	
+}
+ul#footter-gn2{
+	display: block;
+	width: 93%;
+	margin-left: 7%;
+	margin-top: 0%;
+}
+ul#footter-gn1 li{
+	margin-right: 0%;
+	margin-bottom: 2%;
+}
+ul#footter-gn2 li{
+	margin-right: 0%;
+	margin-bottom: 2%;
+}	
+}
 @media only screen and (max-width: 560px){
 
 .tc1_title_s{
@@ -710,6 +843,7 @@ div#contents{
 	font-size: 16px;
 	padding-left: 25%;
 }
+
 }
 
 @media only screen and (max-width: 350px){
