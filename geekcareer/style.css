@@ -93,20 +93,20 @@ ul#globalnav li a{
 .onayami_title{
 	width: 43%;
 	position: absolute;
-	top: 13%;
-	left: 6%;
+	top: 18%;
+	left: 13%;
 }
 .onayami_dis{
 	width: 45%;
 	position: absolute;
-	top: 37%;
-	left: 7%;
+	top: 42%;
+	left: 14%;
 }
 .onayami_anai{
 	width: 42%;
 	position: absolute;
-	top: 75%;
-	left: 6%;
+	top: 80%;
+	left: 13%;
 }
 .benefit{
 	position: relative;
@@ -229,18 +229,18 @@ div#contents{
 	margin-top: 7%;
 }
 .voice_title{
-	width: 32%;
+	width: 30%;
 	margin: 10% auto 0%;
 }
 .mr5{
 	margin-right: 5%;
 }
 .kaneko{
-	width: 100%;
+	width: 80%;
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: flex;
-	margin-top: 3%;
+	margin: 3% auto 0%;
 }
 .kaneko_img{
 	width: 35%;
@@ -250,11 +250,11 @@ div#contents{
 	margin-left: 5%;
 }
 .on{
-	width: 100%;
+	width: 80%;
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: flex;
-	margin-top: 3%;
+	margin: 3% auto 0%;
 }
 .on_img{
 	width: 35%;
@@ -266,6 +266,10 @@ div#contents{
 .qa_title{
 	width: 60%;
 	margin: 10% auto 0%;
+}
+.vow80a{
+	width: 80%;
+	margin: 0 auto;
 }
 .qaw80a{
 	width: 80%;
@@ -623,6 +627,9 @@ div#contents{
 .yajirushi{
 	width: 20%;
 	margin: 12% auto 0;
+}
+.voice_title{
+	width: 46%;
 }
 .voice_kaneko_tit{
 	background-color: #19bfc3;
