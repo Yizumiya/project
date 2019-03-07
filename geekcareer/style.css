@@ -187,8 +187,11 @@ div#contents{
 	margin: 0 auto;
 }
 .tokucho_title{
-	width: 70%;
+	width: 60%;
 	margin: 10% auto 0%;
+}
+.mt5{
+	margin-top: 5%;
 }
 .mt7{
 	margin-top: 7%;
@@ -203,7 +206,7 @@ div#contents{
 	margin-top: 14%;
 }
 .flow_title{
-	width: 70%;
+	width: 60%;
 	margin: 10% auto 0%;
 }
 .flow1{
@@ -211,6 +214,10 @@ div#contents{
 	display: -webkit-flex;
 	display: flex;
 	margin-top: 12%;
+}
+.w90a{
+	width: 90%;
+	margin: 0 auto;
 }
 .w30{
 	width: 30%;
@@ -222,7 +229,7 @@ div#contents{
 	margin-top: 7%;
 }
 .voice_title{
-	width: 90%;
+	width: 32%;
 	margin: 10% auto 0%;
 }
 .mr5{
@@ -260,8 +267,9 @@ div#contents{
 	width: 60%;
 	margin: 10% auto 0%;
 }
-.qaw80{
+.qaw80a{
 	width: 80%;
+	margin: 0 auto;
 }
 div#footer{
 	background-color: #19bfc3;
@@ -616,8 +624,47 @@ div#contents{
 	width: 20%;
 	margin: 12% auto 0;
 }
-.voice_title{
-	width: 100%;
+.voice_kaneko_tit{
+	background-color: #19bfc3;
+	color: #ffffff;
+	font-size: 18px;
+	font-family: "游ゴシック";
+	padding: 2% 2%;
+	margin-top: 7%;
+}
+.voice_kaneko_tit1{
+	font-weight: bold;
+	margin: 0%;
+}
+.voice_kaneko_tit2{
+	display: inline-block;
+	margin: 0%;
+}
+.voice_kaneko_tit3{
+	display: inline;
+	font-weight: bold;
+	margin: 0%;
+}
+.voice_on_tit{
+	background-color: #19bfc3;
+	color: #ffffff;
+	font-size: 18px;
+	font-family: "游ゴシック";
+	padding: 2% 2%;
+	margin-top: 7%;
+}
+.voice_on_tit1{
+	font-weight: bold;
+	margin: 0%;
+}
+.voice_on_tit2{
+	display: inline-block;
+	margin: 0%;
+}
+.voice_on_tit3{
+	display: inline;
+	font-weight: bold;
+	margin: 0%;
 }
 .qa_title{
 	width: 100%;
@@ -802,6 +849,24 @@ ul#footter-gn2 li{
 }
 .tc4_dis_s{
 	font-size: 18px;
+}
+.voice_kaneko_tit{
+	font-size: 16px;
+}
+.voice_kaneko_tit2{
+	display: block;
+}
+.voice_kaneko_tit3{
+	display: block;
+}
+.voice_on_tit{
+	font-size: 16px;
+}
+.voice_on_tit2{
+	display: block;
+}
+.voice_on_tit3{
+	display: block;
 }
 .q1{
 	font-size: 18px;
