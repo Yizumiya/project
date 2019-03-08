@@ -8,6 +8,26 @@ div#wrapper{
 img{
 	width: 100%;
 }
+#se{
+	padding-top: 6.8%;
+	margin-top: -6.8%;
+}
+#tc{
+	padding-top: 6.8%;
+	margin-top: -6.8%;
+}
+#fl{
+	padding-top: 6.8%;
+	margin-top: -6.8%;
+}
+#qa{
+	padding-top: 6.8%;
+	margin-top: -6.8%;
+}
+#to{
+	padding-top: 6.8%;
+	margin-top: -6.8%;
+}
 .logo{
 	display: block;
 	width:70%;
@@ -205,6 +225,9 @@ div#contents{
 .mt14{
 	margin-top: 14%;
 }
+.mb7{
+	margin-bottom: 7%;
+}
 .flow_title{
 	width: 60%;
 	margin: 10% auto 0%;
@@ -282,6 +305,9 @@ div#footer{
 	padding: 1% 3% 6% 3%;
 	margin-top: 12%;
 }
+.footer_logo{
+	width: 50%;
+}
 ul#footter-gn1{
 	width: 70%;
 	padding: 0px;
@@ -324,41 +350,15 @@ ul#footter-gn2 li a{
 }
 .fl{
 	float: left;
-	margin-top: 0.5%;
+	margin-top: 1%;
+	width: 250px;
 }
 .clearfix::after{
 	content: "";
 	display: block;
 	clear: both;
 }
-/*thanks_page*/
-img.thanks_img{
- width:	100%; 
-}
-.shiryo_title{
-    font-size: 30px;
-    margin-top: 10%;
-}
-p.shiryo_discription{
 
-}
-img.thanks_check{
-	width: 10%;
-	margin-top: 5%;
-}
-.shiryo_done{
-    font-size: 30px;
-    margin-top: 5%;
-}
-.fix{
-	width:70%;
-	margin-right: auto;
-	margin-left : auto;
-	text-align: center;
-	font-family: YuGothic, 'Yu Gothic', sans-serif;
-	font-weight: normal;
-    color: #333333;
-}
 @media only screen and (max-width: 1250px){
 
 ul#globalnav{
@@ -416,6 +416,9 @@ div#ham{
 
 @media only screen and (max-width: 980px){
 
+.fl{
+	margin-left: 1%;
+}
 ul#footter-gn1{
 	width: 96%;
 	margin-left: 4%;
@@ -460,7 +463,7 @@ ul#footter-gn2 li{
 }
 .top_but_s{
 	width: 80%;
-	margin: 0 auto;
+	margin: 4% auto;
 }
 .top_man{
 	width: 25%;
@@ -503,9 +506,9 @@ ul#footter-gn2 li{
 	left: 15%;
 }
 .profile_title{
-	width: 54%;
+	width: 51%;
 	top: 12%;
-	left: 45%;
+	left: 46%;
 }
 .profile_name{
 	width: 50%;
@@ -534,6 +537,69 @@ ul#footter-gn2 li{
 	width: 100%;
 	margin-bottom: 12%;
 }
+.agent_career_sp{
+	background-image: url("img/what's_agent_career_sp.png");
+	background-repeat: no-repeat;
+	background-position: left middle;
+	background-size: 70px;
+	padding-left: 15%;
+	padding-top: 0%;
+	padding-bottom: 5%;
+	margin-top: 7%;
+}
+.agent_career_title_sp{
+	font-size: 20px;
+	font-family: "游ゴシック";
+	font-weight: bold;
+	margin: 0%;
+}
+.agent_career_dis_sp{
+	font-size: 16px;
+	font-family: "游ゴシック";
+	margin: 0%;
+}
+.agent_kyujin_sp{
+	background-image: url("img/what's_agent_kyujin_sp.png");
+	background-repeat: no-repeat;
+	background-position: left middle;
+	background-size: 55px;
+	padding-left: 15%;
+	padding-top: 0%;
+	padding-bottom: 5%;
+	margin-top: 7%;
+}
+.agent_kyujin_title_sp{
+	font-size: 20px;
+	font-family: "游ゴシック";
+	font-weight: bold;
+	margin: 0%;
+}
+.agent_kyujin_dis_sp{
+	font-size: 16px;
+	font-family: "游ゴシック";
+	margin: 0%;
+}
+.agent_mensetsu_sp{
+	background-image: url("img/what's_agent_mensetsu_sp.png");
+	background-repeat: no-repeat;
+	background-position: left middle;
+	background-size: 57px;
+	padding-left: 15%;
+	padding-top: 0%;
+	padding-bottom: 5%;
+	margin-top: 7%;
+}
+.agent_mensetsu_title_sp{
+	font-size: 20px;
+	font-family: "游ゴシック";
+	font-weight: bold;
+	margin: 0%;
+}
+.agent_mensetsu_dis_sp{
+	font-size: 16px;
+	font-family: "游ゴシック";
+	margin: 0%;
+}
 .kyuujin_title{
 	position: relative;
 }
@@ -548,6 +614,7 @@ ul#footter-gn2 li{
 	left: 15%;
 }
 .kyuujin_dis{
+	font-size: 18px;
 	width: 100%;
 	margin-top: 0%;
 }
@@ -830,8 +897,18 @@ div#contents{
 }
 
 }
+
 @media only screen and (max-width: 670px){
 
+.agent_career_sp{
+	padding-left: 20%;
+}
+.agent_kyujin_sp{
+	padding-left: 20%;
+}
+.agent_mensetsu_sp{
+	padding-left: 20%;
+}
 ul#footter-gn1{
 	display: block;
 	width: 93%;
@@ -854,6 +931,9 @@ ul#footter-gn2 li{
 }
 @media only screen and (max-width: 560px){
 
+.kyuujin_dis{
+	font-size: 16px;
+}
 .tc1_title_s{
 	background-size: 50px;
 	font-size: 20px;
@@ -943,6 +1023,19 @@ ul#footter-gn2 li{
 	padding-left: 25%;
 }
 
+}
+
+@media only screen and (max-width: 440px){
+
+.agent_career_sp{
+	padding-left: 30%;
+}
+.agent_kyujin_sp{
+	padding-left: 30%;
+}
+.agent_mensetsu_sp{
+	padding-left: 30%;
+}
 }
 
 @media only screen and (max-width: 350px){
