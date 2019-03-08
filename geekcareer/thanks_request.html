@@ -2,47 +2,72 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<meta name="description" content="ProgLobo">
-		<meta name="keyword" content="ProgLobo">
-		<title>Prog-Loboratory</title>
+		<meta name="description" content="geekcareer">
+		<meta name="keyword" content="geekcareer">
+		<title>ギークキャリア転職エージェント｜現役エンジニアに無料でキャリア相談GeekCareer</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 		<link rel="stylesheet" type="text/css" href="style.css" />
+		<script src="https://sdk.form.run/js/v2/embed.js"></script>
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script type="text/javascript" src="../js/g-analytics.js"></script>
+		<script>
+			$(function($) {
+				WindowHeight = $(window).height();
+				$('.drawr').css('height', WindowHeight); //メニューをwindowの高さいっぱいにする
+				$(document).ready(function() {
+					$('.btn').click(function(){ //クリックしたら
+						if($('.drawr').is(":animated")){
+							return false;
+						}else{
+							$('.drawr').animate({width:'toggle'}); //animateで表示・非表示
+							$(this).toggleClass('peke'); //toggleでクラス追加・削除
+							return false;
+						}
+					});
+				});
+   
+				//別領域をクリックでメニューを閉じる
+				$(document).click(function(event) {
+					if (!$(event.target).closest('.drawr').length) {
+						$('.btn').removeClass('peke');
+						$('.drawr').hide();
+					}
+				});
+			});
+		</script>
+		<script src="https://r.moshimo.com/af/r/result.js?p_id=1977&pc_id=3960&m_v=abc" id="msmaf"></script>
+		<noscript><img src="https://r.moshimo.com/af/r/result?p_id=1977&pc_id=3960&m_v=abc" width="1" height="1" alt=""></noscript>
 	</head>
 	<body>
 		<div id = "wrapper">
 			<div id="header">
-			<div class="mv">
-				<img class="thanks_img" src="img/thanks.jpg" />
-			</div>
+			
 			</div>
 
 			<div id="thanks">
 				<div class="fix">
-					<div class="shiryo_title">カリキュラム資料請求／お問い合わせ</div>
+					<div class="shiryo_title">転職支援サービスお申込み</div>
 						<img class="thanks_check" src="img/thanks_check.png" />
-					<div class="shiryo_title">送信完了</div>
-						<p class="shiryo_discription">資料請求ありがとうございます。<br>
-						資料をダウンロードいただけるURLを記載したメールが、<br>
-						メールアドレス宛てに自動返信で送られます。<br>
+					<div class="shiryo_done">送信完了</div>
+						<p class="shiryo_discription">無料転職支援サービスへのお申し込みありがとうございます。<br>
+						面談日程について、担当より別途ご連絡いたしますので、<br>
+						少々おまちくださいませ。<br>
 						ご質問いただいた内容に関しましては、別途ご連絡させていただきます。</p>
 				</div>
 			</div>
 				
-  			<div id="footer">
+  			<div id="footer" style="margin-top: 6%;">
   				<div class="main clearfix">
   				<div class="fl">
-  				<p class="fs25 mtb0 td"><a href="#header"><b>Prog-Laboratory</b></a></p>
-  				<p class="fs15 mtb0 center td"><a href="#header">企業向けプログラミング研修</a></p>
+  				<a href="#header"><img src="img/footer_logo.png" /></a>
   				</div>
   				
   				<ul id = "footter-gn1">
-					<li><a href="index.html#sn">サービス内容</a></li>
-    				<li><a href="index.html#tc">特徴</a></li>
-    				<li><a href="index.html#cs">コース体制</a></li>
-    				<li><a href="index.html#ss">料金が知りたい</a></li>
-    				<li><a href="index.html#js">研修生の声</a></li>
-    				<li><a href="index.html#ss">資料請求／お問い合わせ</a></li>
+					<li><a href="#se">サービス</a></li>
+					<li><a href="#tc">特徴</a></li>
+					<li><a href="#fl">流れ</a></li>
+					<li><a href="#qa">Q＆A</a></li>
+					<li><a href="#to">お問い合わせ</a></li>
 				</ul>
 				<ul id = "footter-gn2">
 					<li><a href="https://li-n.net/" target=”_blank>運営会社</a></li>
