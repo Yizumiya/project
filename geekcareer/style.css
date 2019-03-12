@@ -359,17 +359,15 @@ ul#footter-gn2 li a{
 	clear: both;
 }
 /*thanks_page*/
-img.thanks img{
-	width: 100%;
-}
-.shiryo title{
+
+.shiryo_title{
 	font-size: 30px;
 	margin-top: 10%;
 }
 p.shiryo_discription{
 
 }
-img.thanks check{
+img.thanks_check{
 	width: 10%;
 	margin-top: 5%;
 }
